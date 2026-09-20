@@ -5666,8 +5666,8 @@
 		)
 	)
 	(rectangle
-		(start 210.82 53.34)
-		(end 246.38 83.82)
+		(start 247.65 53.34)
+		(end 283.21 83.82)
 		(stroke
 			(width 0)
 			(type default)
@@ -5688,6 +5688,18 @@
 			(type none)
 		)
 		(uuid "8a1d52f6-f3b1-4656-8a8d-5dcb82dccf80")
+	)
+	(rectangle
+		(start 210.82 53.34)
+		(end 246.38 83.82)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "9b4a68ad-f51d-4e5a-a6b9-bb79c23cff4e")
 	)
 	(rectangle
 		(start 106.68 13.97)
@@ -5735,7 +5747,7 @@
 	)
 	(text "I2C connector (e.g. rain sensor)"
 		(exclude_from_sim no)
-		(at 228.346 55.88 0)
+		(at 265.176 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5752,6 +5764,16 @@
 			)
 		)
 		(uuid "65c450b0-fe9e-4b34-82b2-c84609735f49")
+	)
+	(text "Temp sensor DS18B20"
+		(exclude_from_sim no)
+		(at 228.346 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bfafda61-7e52-43a5-9a6b-f896a379d839")
 	)
 	(text "Zasilanie"
 		(exclude_from_sim no)
@@ -6368,7 +6390,17 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 77.47) (xy 236.22 77.47)
+			(xy 229.87 69.85) (xy 222.25 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26093718-f319-466f-a5f8-cf269ec1886d")
+	)
+	(wire
+		(pts
+			(xy 267.97 77.47) (xy 273.05 77.47)
 		)
 		(stroke
 			(width 0)
@@ -6428,7 +6460,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 71.12) (xy 231.14 71.12)
+			(xy 260.35 71.12) (xy 267.97 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6498,7 +6530,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 71.12) (xy 231.14 77.47)
+			(xy 267.97 71.12) (xy 267.97 77.47)
 		)
 		(stroke
 			(width 0)
@@ -6535,6 +6567,16 @@
 			(type default)
 		)
 		(uuid "4562cdc6-788b-48ef-ba7c-4b4f6a203c50")
+	)
+	(wire
+		(pts
+			(xy 229.87 63.5) (xy 229.87 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46ee00ed-b32c-451c-bb6b-de3733af89ca")
 	)
 	(wire
 		(pts
@@ -6698,7 +6740,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 77.47) (xy 236.22 74.93)
+			(xy 273.05 77.47) (xy 273.05 74.93)
 		)
 		(stroke
 			(width 0)
@@ -6998,6 +7040,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 74.93) (xy 229.87 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97ebfbd3-18c6-4213-b4c2-feb8ee132c73")
+	)
+	(wire
+		(pts
 			(xy 130.81 133.35) (xy 132.08 133.35)
 		)
 		(stroke
@@ -7118,6 +7170,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 77.47) (xy 229.87 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6076877-3bc4-4349-8fc2-412d279adf74")
+	)
+	(wire
+		(pts
 			(xy 130.81 128.27) (xy 139.7 128.27)
 		)
 		(stroke
@@ -7135,6 +7197,16 @@
 			(type default)
 		)
 		(uuid "aab17d66-761f-49ed-8d32-9c3fa005b5b0")
+	)
+	(wire
+		(pts
+			(xy 233.68 80.01) (xy 233.68 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abced481-8c3e-4ce2-9973-615aaeac731c")
 	)
 	(wire
 		(pts
@@ -7248,6 +7320,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 72.39) (xy 222.25 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4c20e80-0a4b-489f-8031-399acad02134")
+	)
+	(wire
+		(pts
 			(xy 127 74.93) (xy 132.08 74.93)
 		)
 		(stroke
@@ -7358,7 +7440,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 73.66) (xy 223.52 73.66)
+			(xy 264.16 73.66) (xy 260.35 73.66)
 		)
 		(stroke
 			(width 0)
@@ -7408,13 +7490,23 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 78.74) (xy 227.33 73.66)
+			(xy 264.16 78.74) (xy 264.16 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ebaba6ea-38a9-4a68-a174-b120b9c8d247")
+	)
+	(wire
+		(pts
+			(xy 233.68 80.01) (xy 245.11 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed07d508-14a9-4cc8-af51-b9d130de7d64")
 	)
 	(wire
 		(pts
@@ -7747,7 +7839,7 @@
 		(uuid "6aef1d54-1402-41bf-82cc-78fd65b775ab")
 	)
 	(label "PIN_I2C_SCL"
-		(at 223.52 66.04 0)
+		(at 260.35 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7857,7 +7949,7 @@
 		(uuid "a6a20ad5-b8ca-420a-85a2-3d8e5984d670")
 	)
 	(label "PIN_I2C_SDA"
-		(at 223.52 68.58 0)
+		(at 260.35 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7865,6 +7957,16 @@
 			(justify left bottom)
 		)
 		(uuid "ab337029-b426-43a2-9397-f4cb3263d97c")
+	)
+	(label "PIN_DS18B20"
+		(at 245.11 80.01 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0abba75-c789-4c80-bda4-ee4f915fed5a")
 	)
 	(label "PIN_OLED_CLK"
 		(at 30.48 64.77 180)
@@ -8260,7 +8362,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 227.33 78.74 0)
+		(at 264.16 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8270,8 +8372,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a927cf0-aebe-442d-a859-bcda063a90f2")
-		(property "Reference" "#PWR06"
-			(at 227.33 85.09 0)
+		(property "Reference" "#PWR010"
+			(at 264.16 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8282,7 +8384,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 227.33 83.82 0)
+			(at 264.16 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8292,7 +8394,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 78.74 0)
+			(at 264.16 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8303,7 +8405,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 78.74 0)
+			(at 264.16 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8314,7 +8416,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 227.33 78.74 0)
+			(at 264.16 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8330,7 +8432,7 @@
 		(instances
 			(project "WachcioDrop"
 				(path "/cc2cb50c-70f7-486a-b07b-c403b0b67709"
-					(reference "#PWR06")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -8434,7 +8536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fa4d9de-dd28-4ff3-8c1d-2590d3f52224")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR012"
 			(at 93.98 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -8494,7 +8596,7 @@
 		(instances
 			(project "WachcioDrop"
 				(path "/cc2cb50c-70f7-486a-b07b-c403b0b67709"
-					(reference "#PWR010")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -8512,7 +8614,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "175e3cb8-aed0-40c6-a5f5-4ccd8f57c127")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR021"
 			(at 274.32 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -8572,7 +8674,7 @@
 		(instances
 			(project "WachcioDrop"
 				(path "/cc2cb50c-70f7-486a-b07b-c403b0b67709"
-					(reference "#PWR019")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -8590,7 +8692,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c480f28-9cb1-48d7-8fef-ccca3fd30c94")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 24.13 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8652,7 +8754,7 @@
 		(instances
 			(project "WachcioDrop"
 				(path "/cc2cb50c-70f7-486a-b07b-c403b0b67709"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -8670,7 +8772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "273370d0-0504-4c0c-a6a3-d05ddb08d03b")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR014"
 			(at 260.35 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -8730,7 +8832,7 @@
 		(instances
 			(project "WachcioDrop"
 				(path "/cc2cb50c-70f7-486a-b07b-c403b0b67709"
-					(reference "#PWR012")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -8988,7 +9090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "449e6a0f-05f9-4b96-92cc-25eda4c819cc")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR017"
 			(at 167.64 127 0)
 			(hide yes)
 			(show_name no)
@@ -9048,7 +9150,7 @@
 		(instances
 			(project "WachcioDrop"
 				(path "/cc2cb50c-70f7-486a-b07b-c403b0b67709"
-					(reference "#PWR015")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -9077,7 +9179,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "800uF 50V"
 			(at 90.17 120.2689 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9307,7 +9409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e19fda9-a82e-42ef-8e69-6cf707bfb3fd")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR020"
 			(at 260.35 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -9367,7 +9469,7 @@
 		(instances
 			(project "WachcioDrop"
 				(path "/cc2cb50c-70f7-486a-b07b-c403b0b67709"
-					(reference "#PWR018")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -9449,6 +9551,84 @@
 			(project "WachcioDrop"
 				(path "/cc2cb50c-70f7-486a-b07b-c403b0b67709"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 229.87 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73afe3e4-2e5f-4590-ac67-0a37f7a63727")
+		(property "Reference" "#PWR06"
+			(at 229.87 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 229.87 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 229.87 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1e318172-76d0-4dba-9b9e-e470c7516356")
+		)
+		(instances
+			(project "WachcioDrop"
+				(path "/cc2cb50c-70f7-486a-b07b-c403b0b67709"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -10191,7 +10371,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96bb364d-0dbf-4f82-a7a1-ec28633e7b01")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR023"
 			(at 167.64 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -10251,7 +10431,7 @@
 		(instances
 			(project "WachcioDrop"
 				(path "/cc2cb50c-70f7-486a-b07b-c403b0b67709"
-					(reference "#PWR021")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -10269,7 +10449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96c7c337-b3ea-461a-925f-120000598554")
-		(property "Reference" "U7"
+		(property "Reference" "U3"
 			(at 203.2 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10334,7 +10514,7 @@
 		(instances
 			(project "WachcioDrop"
 				(path "/cc2cb50c-70f7-486a-b07b-c403b0b67709"
-					(reference "U7")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -10352,7 +10532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c9bdf43-f1bf-4f2d-afd3-a9c50a4e72f6")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR022"
 			(at 232.41 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -10412,7 +10592,7 @@
 		(instances
 			(project "WachcioDrop"
 				(path "/cc2cb50c-70f7-486a-b07b-c403b0b67709"
-					(reference "#PWR020")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -10624,7 +10804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a81a96f5-d658-41b7-b865-bbb44eb9f792")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 193.04 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -10684,7 +10864,7 @@
 		(instances
 			(project "WachcioDrop"
 				(path "/cc2cb50c-70f7-486a-b07b-c403b0b67709"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -10772,8 +10952,8 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:Conn_01x04")
-		(at 218.44 71.12 180)
+		(lib_id "power:GND")
+		(at 229.87 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10782,9 +10962,10 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b390bcb5-f2a2-4fa8-a144-08f170644502")
-		(property "Reference" "J2"
-			(at 218.44 59.69 0)
+		(uuid "af6955d0-70cd-426a-a68e-78c12bad6ac3")
+		(property "Reference" "#PWR09"
+			(at 229.87 83.82 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10793,8 +10974,8 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04"
-			(at 218.44 62.23 0)
+		(property "Value" "GND"
+			(at 229.87 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10803,8 +10984,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 218.44 71.12 0)
+		(property "Footprint" ""
+			(at 229.87 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10815,7 +10996,84 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 71.12 0)
+			(at 229.87 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 229.87 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "57b907b1-8fd2-449e-a0ca-df7b3c559cc4")
+		)
+		(instances
+			(project "WachcioDrop"
+				(path "/cc2cb50c-70f7-486a-b07b-c403b0b67709"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:Conn_01x04")
+		(at 255.27 71.12 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b390bcb5-f2a2-4fa8-a144-08f170644502")
+		(property "Reference" "J2"
+			(at 255.27 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 255.27 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 255.27 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10826,7 +11084,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 218.44 71.12 0)
+			(at 255.27 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10859,7 +11117,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 236.22 74.93 0)
+		(at 273.05 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10869,8 +11127,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "baccce0c-c4ad-45ee-b398-a17870ef7858")
-		(property "Reference" "#PWR08"
-			(at 236.22 78.74 0)
+		(property "Reference" "#PWR07"
+			(at 273.05 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10881,7 +11139,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 236.22 69.85 0)
+			(at 273.05 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10891,7 +11149,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 74.93 0)
+			(at 273.05 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10902,7 +11160,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 74.93 0)
+			(at 273.05 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10913,7 +11171,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 236.22 74.93 0)
+			(at 273.05 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10929,7 +11187,7 @@
 		(instances
 			(project "WachcioDrop"
 				(path "/cc2cb50c-70f7-486a-b07b-c403b0b67709"
-					(reference "#PWR08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -10947,7 +11205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4ed96b2-74a3-47a3-88f6-f7bf9146e7f2")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR011"
 			(at 151.13 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -11007,7 +11265,7 @@
 		(instances
 			(project "WachcioDrop"
 				(path "/cc2cb50c-70f7-486a-b07b-c403b0b67709"
-					(reference "#PWR09")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -11401,7 +11659,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4e08400-82c0-4119-a0ff-4fde7d2b6e8c")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR016"
 			(at 232.41 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -11461,7 +11719,7 @@
 		(instances
 			(project "WachcioDrop"
 				(path "/cc2cb50c-70f7-486a-b07b-c403b0b67709"
-					(reference "#PWR014")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -11479,7 +11737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc5866e2-1ea2-4710-be3f-c8bbd8202c45")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR018"
 			(at 132.08 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -11539,7 +11797,7 @@
 		(instances
 			(project "WachcioDrop"
 				(path "/cc2cb50c-70f7-486a-b07b-c403b0b67709"
-					(reference "#PWR016")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -11557,7 +11815,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e147100d-31bb-4c78-9821-79e2992f3090")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR015"
 			(at 274.32 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -11617,7 +11875,7 @@
 		(instances
 			(project "WachcioDrop"
 				(path "/cc2cb50c-70f7-486a-b07b-c403b0b67709"
-					(reference "#PWR013")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -12031,6 +12289,89 @@
 		)
 	)
 	(symbol
+		(lib_id "symbols:Conn_01x03")
+		(at 217.17 72.39 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f161b326-e3f7-46a2-a770-604565ec9eca")
+		(property "Reference" "J4"
+			(at 217.17 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 217.17 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 217.17 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 217.17 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "a2705965-e515-4598-8e08-f53a9bff0869")
+		)
+		(pin "1"
+			(uuid "9636bc45-eaa8-467e-b8d6-1febbe7a1f33")
+		)
+		(pin "2"
+			(uuid "cf14f919-46fe-48c5-9653-dd1d94ba6a77")
+		)
+		(instances
+			(project "WachcioDrop"
+				(path "/cc2cb50c-70f7-486a-b07b-c403b0b67709"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 203.2 138.43 0)
 		(unit 1)
@@ -12042,7 +12383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f22e80d3-8199-4154-8267-e0fec4315b50")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR019"
 			(at 203.2 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -12102,7 +12443,7 @@
 		(instances
 			(project "WachcioDrop"
 				(path "/cc2cb50c-70f7-486a-b07b-c403b0b67709"
-					(reference "#PWR017")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -12120,7 +12461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2c58f05-723f-4820-9a4f-ed892985fc65")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR013"
 			(at 101.6 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -12180,7 +12521,7 @@
 		(instances
 			(project "WachcioDrop"
 				(path "/cc2cb50c-70f7-486a-b07b-c403b0b67709"
-					(reference "#PWR011")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -12215,6 +12556,14 @@
 			"9dc93be5-c847-4b0f-80fa-2eeaf81c75f8" "a0e6fb06-a9f6-4e38-a220-957becf24b34"
 			"bb818e91-7c97-47e2-b459-d888fc04cdae" "c08dbc07-73ae-4cee-94bd-7da375efd7e0"
 			"f2c3dce6-0a7a-4293-a94e-14f988a0177d" "f5822f8a-bdd3-43e6-8f34-78002b7fe59f"
+		)
+	)
+	(group ""
+		(uuid "a76e78d5-07fd-4391-ac5e-a6e71e07f7fb")
+		(members "46ee00ed-b32c-451c-bb6b-de3733af89ca" "abced481-8c3e-4ce2-9973-615aaeac731c"
+			"b0abba75-c789-4c80-bda4-ee4f915fed5a" "c4c20e80-0a4b-489f-8031-399acad02134"
+			"ed07d508-14a9-4cc8-af51-b9d130de7d64" "f161b326-e3f7-46a2-a770-604565ec9eca"
+			"fd5d5291-f78e-4a84-a71c-066a4be09e12"
 		)
 	)
 	(group ""
@@ -12278,6 +12627,22 @@
 			"f22e80d3-8199-4154-8267-e0fec4315b50" "f2c58f05-723f-4820-9a4f-ed892985fc65"
 			"fa093bb6-9571-4abf-9ee6-8fa2d721fb0c" "fa9b5753-649a-4a8e-82ba-99cca3cc2636"
 			"fc521d25-ccb3-401d-baae-f259851121fb" "fc9f7c4f-f74b-4bf1-ab37-b9e5020ae2d2"
+		)
+	)
+	(group ""
+		(uuid "fd5d5291-f78e-4a84-a71c-066a4be09e12")
+		(members "26093718-f319-466f-a5f8-cf269ec1886d" "73afe3e4-2e5f-4590-ac67-0a37f7a63727"
+			"97ebfbd3-18c6-4213-b4c2-feb8ee132c73" "9b4a68ad-f51d-4e5a-a6b9-bb79c23cff4e"
+			"a6076877-3bc4-4349-8fc2-412d279adf74" "af6955d0-70cd-426a-a68e-78c12bad6ac3"
+			"bfafda61-7e52-43a5-9a6b-f896a379d839"
+		)
+	)
+	(group ""
+		(uuid "fd5d5291-f78e-4a84-a71c-066a4be09e12")
+		(members "26093718-f319-466f-a5f8-cf269ec1886d" "73afe3e4-2e5f-4590-ac67-0a37f7a63727"
+			"97ebfbd3-18c6-4213-b4c2-feb8ee132c73" "9b4a68ad-f51d-4e5a-a6b9-bb79c23cff4e"
+			"a6076877-3bc4-4349-8fc2-412d279adf74" "af6955d0-70cd-426a-a68e-78c12bad6ac3"
+			"bfafda61-7e52-43a5-9a6b-f896a379d839"
 		)
 	)
 	(sheet

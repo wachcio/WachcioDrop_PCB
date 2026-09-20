@@ -4147,7 +4147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f2ec412-1b36-4033-ab1d-7cdd49166461")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR051"
 			(at 168.91 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4207,7 +4207,7 @@
 		(instances
 			(project "WachcioDrop"
 				(path "/092d72f0-72d7-4389-b9c5-9d3cdece059d"
-					(reference "#PWR049")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -4231,7 +4231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1169a02b-9be6-4964-8b8c-531366781434")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR055"
 			(at 125.73 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -4291,7 +4291,7 @@
 		(instances
 			(project "WachcioDrop"
 				(path "/092d72f0-72d7-4389-b9c5-9d3cdece059d"
-					(reference "#PWR053")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -4315,7 +4315,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36d55d26-a00d-4d10-a0d0-e17bca6c8296")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR050"
 			(at 209.55 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4375,7 +4375,7 @@
 		(instances
 			(project "WachcioDrop"
 				(path "/092d72f0-72d7-4389-b9c5-9d3cdece059d"
-					(reference "#PWR048")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -4399,7 +4399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3dfa6ced-ce15-4d65-b1aa-5c77ede28bc9")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR044"
 			(at 45.72 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -4459,7 +4459,7 @@
 		(instances
 			(project "WachcioDrop"
 				(path "/092d72f0-72d7-4389-b9c5-9d3cdece059d"
-					(reference "#PWR042")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -4483,7 +4483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46aee304-fc3e-48dc-8dcd-d7d19c7cd0a5")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR049"
 			(at 150.876 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4543,7 +4543,7 @@
 		(instances
 			(project "WachcioDrop"
 				(path "/092d72f0-72d7-4389-b9c5-9d3cdece059d"
-					(reference "#PWR047")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -4567,7 +4567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "621b4b57-164e-4429-950b-5c76e754ec9f")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR045"
 			(at 168.91 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -4627,7 +4627,7 @@
 		(instances
 			(project "WachcioDrop"
 				(path "/092d72f0-72d7-4389-b9c5-9d3cdece059d"
-					(reference "#PWR043")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -4836,7 +4836,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69775c37-2ff9-4edf-9325-84a8a252cf08")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR052"
 			(at 209.55 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4896,7 +4896,7 @@
 		(instances
 			(project "WachcioDrop"
 				(path "/092d72f0-72d7-4389-b9c5-9d3cdece059d"
-					(reference "#PWR050")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -5016,7 +5016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77db3a6c-56be-4017-b2ad-49a39fb86f39")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR048"
 			(at 209.55 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -5076,7 +5076,7 @@
 		(instances
 			(project "WachcioDrop"
 				(path "/092d72f0-72d7-4389-b9c5-9d3cdece059d"
-					(reference "#PWR046")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -5189,7 +5189,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a2a36208-7513-47a3-8409-36636a18a68b")
-		(property "Reference" "R17"
+		(property "Reference" "R16"
 			(at 137.16 131.572 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5251,7 +5251,7 @@
 		(instances
 			(project "WachcioDrop"
 				(path "/092d72f0-72d7-4389-b9c5-9d3cdece059d"
-					(reference "R17")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -5275,7 +5275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2cd77ea-dd39-4e50-9c63-613f01652abb")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR043"
 			(at 149.606 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -5335,7 +5335,7 @@
 		(instances
 			(project "WachcioDrop"
 				(path "/092d72f0-72d7-4389-b9c5-9d3cdece059d"
-					(reference "#PWR041")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -5359,7 +5359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a70ec0dc-8a2b-4994-9c20-dfa04979b2fc")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR056"
 			(at 134.62 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -5419,7 +5419,7 @@
 		(instances
 			(project "WachcioDrop"
 				(path "/092d72f0-72d7-4389-b9c5-9d3cdece059d"
-					(reference "#PWR054")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -5539,7 +5539,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8258e0d-2dcf-4585-9160-429239077285")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at 60.96 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5715,7 +5715,7 @@
 		(instances
 			(project "WachcioDrop"
 				(path "/092d72f0-72d7-4389-b9c5-9d3cdece059d"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -5931,7 +5931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9b0cca5-4e29-46c9-81a2-f952cccdbb4d")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR053"
 			(at 168.91 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -5991,7 +5991,7 @@
 		(instances
 			(project "WachcioDrop"
 				(path "/092d72f0-72d7-4389-b9c5-9d3cdece059d"
-					(reference "#PWR051")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -6015,7 +6015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdbdc02d-882b-4a7f-bcb0-a71ca416e421")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR046"
 			(at 209.55 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -6075,7 +6075,7 @@
 		(instances
 			(project "WachcioDrop"
 				(path "/092d72f0-72d7-4389-b9c5-9d3cdece059d"
-					(reference "#PWR044")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -6194,7 +6194,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8882e0e-1ac9-4370-9ff0-3b27008a3901")
-		(property "Reference" "R16"
+		(property "Reference" "R15"
 			(at 128.27 131.572 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6256,7 +6256,7 @@
 		(instances
 			(project "WachcioDrop"
 				(path "/092d72f0-72d7-4389-b9c5-9d3cdece059d"
-					(reference "R16")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -6369,7 +6369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0f6f21b-d5fa-4677-aa05-7fc7eb854151")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR054"
 			(at 73.66 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6429,7 +6429,7 @@
 		(instances
 			(project "WachcioDrop"
 				(path "/092d72f0-72d7-4389-b9c5-9d3cdece059d"
-					(reference "#PWR052")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -6638,7 +6638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6ad0f4a-ba33-467a-81f5-d67dc8c32142")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR047"
 			(at 168.91 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6698,7 +6698,7 @@
 		(instances
 			(project "WachcioDrop"
 				(path "/092d72f0-72d7-4389-b9c5-9d3cdece059d"
-					(reference "#PWR045")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
