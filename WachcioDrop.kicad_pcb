@@ -29527,6 +29527,58 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "2"
+		(at 94.5 60.5 0)
+		(layer "B.SilkS")
+		(uuid "4ab0c322-24f2-420d-a9f9-494305b624f5")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "40"
+		(at 94.5 108.5 0)
+		(layer "B.SilkS")
+		(uuid "44cd6a0d-65c4-468b-9c58-ef227f35f896")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "1"
+		(at 107.5 60.5 0)
+		(layer "B.SilkS")
+		(uuid "db04eead-6b5b-4b21-9094-1efd2e44923d")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "39"
+		(at 107.5 108.5 0)
+		(layer "B.SilkS")
+		(uuid "6f8051b2-3b95-4ccf-9665-17a213150122")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "800uF 50V"
 		(at 261.5 101 0)
 		(layer "F.Paste")

@@ -1114,7 +1114,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "production/display_board/gerbers/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
